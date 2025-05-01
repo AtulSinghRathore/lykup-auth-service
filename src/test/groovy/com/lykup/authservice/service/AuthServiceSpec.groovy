@@ -10,7 +10,7 @@ import org.springframework.security.crypto.password.PasswordEncoder
 import spock.lang.Specification
 
 class AuthServiceSpec extends Specification {
-
+//
 
     def userRepository = Mock(UserRepository)
     def passwordEncoder = Mock(PasswordEncoder)
